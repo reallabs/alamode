@@ -461,7 +461,7 @@ var alamode = {
 
             if ($(this).find("video").length == 0) {
               $(this).css("text-align","center")
-              $(this).html("<video style='height: " + imgHeight + "px;' src='" + content + "' controls>")
+              $(this).html("<video style='height: " + imgHeight + "px;' src='" + content + "' controls preload='none'>")
             }
           }
         })
